@@ -1,0 +1,375 @@
+[
+    {
+        "nid": "None",
+        "behaviours": [
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": null
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": null
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": null
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0
+    },
+    {
+        "nid": "Attack",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": null
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": null
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": null
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0
+    },
+    {
+        "nid": "Pursue",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -4,
+                "invert_targeting": null
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": null
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": null
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0
+    },
+    {
+        "nid": "Defend",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -2,
+                "invert_targeting": null
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": "Starting",
+                "view_range": -4,
+                "invert_targeting": null
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": null
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0
+    },
+    {
+        "nid": "Guard",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -1,
+                "invert_targeting": null
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": null
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": null
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0
+    },
+    {
+        "nid": "AttackTile",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -2,
+                "invert_targeting": null
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
+                "view_range": -4,
+                "invert_targeting": null
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": null
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0
+    },
+    {
+        "nid": "PursueVillage",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -2,
+                "invert_targeting": null
+            },
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Destructible",
+                "view_range": -4,
+                "invert_targeting": null
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": null
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0
+    },
+    {
+        "nid": "FollowBoss",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -2,
+                "invert_targeting": null
+            },
+            {
+                "action": "Move_to",
+                "target": "Ally",
+                "target_spec": [
+                    "Tag",
+                    "Boss"
+                ],
+                "view_range": -4,
+                "invert_targeting": null
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": null
+            }
+        ],
+        "priority": 15,
+        "offense_bias": 2.0
+    },
+    {
+        "nid": "FollowWagon",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -2,
+                "invert_targeting": null
+            },
+            {
+                "action": "Move_to",
+                "target": "Ally",
+                "target_spec": [
+                    "Class",
+                    "Wagon"
+                ],
+                "view_range": -4,
+                "invert_targeting": null
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": null
+            }
+        ],
+        "priority": 15,
+        "offense_bias": 2.0
+    },
+    {
+        "nid": "Berserk",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -4,
+                "invert_targeting": null
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": null
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": null
+            }
+        ],
+        "priority": 10,
+        "offense_bias": 2.0
+    },
+    {
+        "nid": "Heal",
+        "behaviours": [
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": null
+            },
+            {
+                "action": "Move_away_from",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": null
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": null
+            }
+        ],
+        "priority": 15,
+        "offense_bias": 2.0
+    },
+    {
+        "nid": "Thief",
+        "behaviours": [
+            {
+                "action": "Steal",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -2,
+                "invert_targeting": null
+            },
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Unlock",
+                "view_range": -4,
+                "invert_targeting": null
+            },
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Hidden_Escape",
+                "view_range": -4,
+                "invert_targeting": null
+            }
+        ],
+        "priority": 12,
+        "offense_bias": 2.0
+    },
+    {
+        "nid": "Seize",
+        "behaviours": [
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Enemy_Seize",
+                "view_range": -2,
+                "invert_targeting": null
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -2,
+                "invert_targeting": null
+            },
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Enemy_Seize",
+                "view_range": -4,
+                "invert_targeting": null
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0
+    }
+]

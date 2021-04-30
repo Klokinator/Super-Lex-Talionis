@@ -1,0 +1,1759 @@
+[
+    {
+        "nid": "Iron Sword",
+        "name": "Iron Sword",
+        "desc": "",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                460
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "uses",
+                46
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ]
+        ]
+    },
+    {
+        "nid": "Slim Sword",
+        "name": "Slim Sword",
+        "desc": "",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                480
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                2
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ]
+        ]
+    },
+    {
+        "nid": "Steel Sword",
+        "name": "Steel Sword",
+        "desc": "",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                480
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ]
+        ]
+    },
+    {
+        "nid": "Silver Sword",
+        "name": "Silver Sword",
+        "desc": "",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                1500
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                13
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "uses",
+                30
+            ]
+        ]
+    },
+    {
+        "nid": "Killing Edge",
+        "name": "Killing Edge",
+        "desc": "",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            11
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                1300
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                9
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "crit",
+                30
+            ],
+            [
+                "weight",
+                7
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "uses",
+                20
+            ]
+        ]
+    },
+    {
+        "nid": "Lancereaver",
+        "name": "Lancereaver",
+        "desc": "Reverses the weapon triangle.",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            16
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                1800
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                9
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                9
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "reaver",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Brave Sword",
+        "name": "Brave Sword",
+        "desc": "Allows 2 consecutive hits.",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            9
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                7500
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                9
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "brave",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Rapier",
+        "name": "Rapier",
+        "desc": "Eirika Only, effective against horseback and armoured units",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "hit",
+                95
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "uses",
+                40
+            ],
+            [
+                "prf_unit",
+                [
+                    "Eirika"
+                ]
+            ],
+            [
+                "effective",
+                14
+            ],
+            [
+                "effective_tag",
+                [
+                    "Horse",
+                    "Armor"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Iron Lance",
+        "name": "Iron Lance",
+        "desc": "",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                360
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "uses",
+                45
+            ]
+        ]
+    },
+    {
+        "nid": "Slim Lance",
+        "name": "Slim Lance",
+        "desc": "",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                420
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                4
+            ],
+            [
+                "hit",
+                85
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "uses",
+                30
+            ]
+        ]
+    },
+    {
+        "nid": "Silver Lance",
+        "name": "Silver Lance",
+        "desc": "",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                1200
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                14
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "uses",
+                20
+            ]
+        ]
+    },
+    {
+        "nid": "Javelin",
+        "name": "Javelin",
+        "desc": "",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                400
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                6
+            ],
+            [
+                "hit",
+                65
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                11
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "uses",
+                20
+            ]
+        ]
+    },
+    {
+        "nid": "Iron Axe",
+        "name": "Iron Axe",
+        "desc": "",
+        "icon_nid": "Axe",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                270
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "uses",
+                45
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ]
+        ]
+    },
+    {
+        "nid": "Hatchet",
+        "name": "Hatchet",
+        "desc": "",
+        "icon_nid": "Axe",
+        "icon_index": [
+            0,
+            13
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                4
+            ],
+            [
+                "hit",
+                85
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ]
+        ]
+    },
+    {
+        "nid": "Hand Axe",
+        "name": "Hand Axe",
+        "desc": "",
+        "icon_nid": "Axe",
+        "icon_index": [
+            0,
+            9
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "hit",
+                60
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "value",
+                300
+            ]
+        ]
+    },
+    {
+        "nid": "Swordreaver",
+        "name": "Swordreaver",
+        "desc": "Reverses the weapon triangle.",
+        "icon_nid": "Axe",
+        "icon_index": [
+            0,
+            11
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                2100
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                11
+            ],
+            [
+                "hit",
+                65
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                13
+            ],
+            [
+                "uses",
+                15
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "reaver",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Iron Bow",
+        "name": "Iron Bow",
+        "desc": "",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                540
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                6
+            ],
+            [
+                "hit",
+                85
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "uses",
+                45
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ]
+        ]
+    },
+    {
+        "nid": "Heal",
+        "name": "Heal",
+        "desc": "Restores (User's MAG + 10) HP.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                600
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "heal",
+                10
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "exp",
+                11
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Mend",
+        "name": "Mend",
+        "desc": "Restores (User's MAG + 20) HP.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                1000
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "heal",
+                20
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "exp",
+                12
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Lightning",
+        "name": "Lightning",
+        "desc": "",
+        "icon_nid": "Light",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                630
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                4
+            ],
+            [
+                "hit",
+                95
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                6
+            ],
+            [
+                "uses",
+                35
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Light"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Fire",
+        "name": "Fire",
+        "desc": "",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                560
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "uses",
+                40
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Anima"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    224,
+                    96,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Fire1",
+        "name": "Fire",
+        "desc": "",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                3
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Anima"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    224,
+                    80,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Ice",
+        "name": "Ice",
+        "desc": "",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                3
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Anima"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    127,
+                    175,
+                    180
+                ]
+            ],
+            [
+                "magic",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Thunder",
+        "name": "Thunder",
+        "desc": "",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                7
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Anima"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    251,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Anima",
+        "name": "Anima",
+        "desc": "The three elements, bound as one.",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "multi_item",
+                [
+                    "Fire1",
+                    "Ice",
+                    "Thunder"
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                5
+            ]
+        ]
+    },
+    {
+        "nid": "Vulnerary",
+        "name": "Vulnerary",
+        "desc": "Restores 10 HP.",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "value",
+                300
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "heal",
+                10
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Elixir",
+        "name": "Elixir",
+        "desc": "Fully recovers HP.",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "value",
+                3000
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "heal",
+                99
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Pure Water",
+        "name": "Pure Water",
+        "desc": "Temporarily raises resistance.",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "value",
+                900
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    187,
+                    255
+                ]
+            ],
+            [
+                "status_on_hit",
+                "Resist+"
+            ]
+        ]
+    },
+    {
+        "nid": "Red Gem",
+        "name": "Red Gem",
+        "desc": "An expensive gem worth 2500 gold.",
+        "icon_nid": "Valuable",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "value",
+                5000
+            ]
+        ]
+    }
+]

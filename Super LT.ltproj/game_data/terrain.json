@@ -1,0 +1,242 @@
+[
+    {
+        "nid": "0",
+        "name": "--",
+        "color": [
+            0,
+            0,
+            0,
+            255
+        ],
+        "minimap": "Wall",
+        "platform": "Wall",
+        "mtype": "Fence",
+        "opaque": null,
+        "status": null
+    },
+    {
+        "nid": "1",
+        "name": "Plain",
+        "color": [
+            192,
+            224,
+            48,
+            255
+        ],
+        "minimap": "Grass",
+        "platform": "Plains",
+        "mtype": "Normal",
+        "opaque": null,
+        "status": null
+    },
+    {
+        "nid": "2",
+        "name": "Forest",
+        "color": [
+            64,
+            128,
+            64,
+            255
+        ],
+        "minimap": "Forest",
+        "platform": "Forest",
+        "mtype": "Forest",
+        "opaque": null,
+        "status": "Forest"
+    },
+    {
+        "nid": "3",
+        "name": "Thicket",
+        "color": [
+            0,
+            32,
+            0,
+            255
+        ],
+        "minimap": "Thicket",
+        "platform": "Thicket",
+        "mtype": "Thicket",
+        "opaque": null,
+        "status": "Peak"
+    },
+    {
+        "nid": "4",
+        "name": "Bridge",
+        "color": [
+            170,
+            170,
+            127,
+            255
+        ],
+        "minimap": "Bridge",
+        "platform": "Bridge",
+        "mtype": "Normal",
+        "opaque": null,
+        "status": null
+    },
+    {
+        "nid": "10",
+        "name": "Lake",
+        "color": [
+            0,
+            160,
+            248,
+            255
+        ],
+        "minimap": "Sea",
+        "platform": "Lake",
+        "mtype": "Sea",
+        "opaque": null,
+        "status": "Avoid10"
+    },
+    {
+        "nid": "11",
+        "name": "Sea",
+        "color": [
+            0,
+            104,
+            160,
+            255
+        ],
+        "minimap": "Sea",
+        "platform": "Sea",
+        "mtype": "Sea",
+        "opaque": null,
+        "status": "Avoid10"
+    },
+    {
+        "nid": "12",
+        "name": "River",
+        "color": [
+            0,
+            160,
+            248,
+            255
+        ],
+        "minimap": "River",
+        "platform": "River",
+        "mtype": "River",
+        "opaque": null,
+        "status": null
+    },
+    {
+        "nid": "20",
+        "name": "Hill",
+        "color": [
+            112,
+            84,
+            56,
+            255
+        ],
+        "minimap": "Hill",
+        "platform": "Hill",
+        "mtype": "Hill",
+        "opaque": null,
+        "status": "Mountain"
+    },
+    {
+        "nid": "21",
+        "name": "Mountain",
+        "color": [
+            80,
+            48,
+            40,
+            255
+        ],
+        "minimap": "Mountain",
+        "platform": "Mountain",
+        "mtype": "Mountain",
+        "opaque": null,
+        "status": "Peak"
+    },
+    {
+        "nid": "22",
+        "name": "Cliff",
+        "color": [
+            136,
+            136,
+            104,
+            255
+        ],
+        "minimap": "Cliff",
+        "platform": "Cliff",
+        "mtype": "Cliff",
+        "opaque": null,
+        "status": null
+    },
+    {
+        "nid": "30",
+        "name": "House",
+        "color": [
+            168,
+            88,
+            80,
+            255
+        ],
+        "minimap": "House",
+        "platform": "House",
+        "mtype": "Normal",
+        "opaque": null,
+        "status": "Avoid10"
+    },
+    {
+        "nid": "31",
+        "name": "Fort",
+        "color": [
+            168,
+            80,
+            168,
+            255
+        ],
+        "minimap": "Fort",
+        "platform": "Fort",
+        "mtype": "Fort",
+        "opaque": null,
+        "status": "Fort"
+    },
+    {
+        "nid": "32",
+        "name": "Gate",
+        "color": [
+            32,
+            96,
+            216,
+            255
+        ],
+        "minimap": "Throne",
+        "platform": "Gate",
+        "mtype": "Throne",
+        "opaque": null,
+        "status": "Fort"
+    },
+    {
+        "nid": "33",
+        "name": "Armory",
+        "color": [
+            168,
+            1,
+            4,
+            255
+        ],
+        "minimap": "Shop",
+        "platform": "Armory",
+        "mtype": "Normal",
+        "opaque": null,
+        "status": "Avoid10"
+    },
+    {
+        "nid": "35",
+        "name": "Village",
+        "color": [
+            85,
+            0,
+            0,
+            255
+        ],
+        "minimap": "House",
+        "platform": "Village",
+        "mtype": "Normal",
+        "opaque": null,
+        "status": "Avoid10"
+    }
+]

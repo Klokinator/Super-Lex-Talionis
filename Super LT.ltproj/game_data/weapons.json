@@ -1,0 +1,266 @@
+[
+    {
+        "nid": "Sword",
+        "name": "Sword",
+        "rank_bonus": [],
+        "advantage": [
+            {
+                "weapon_type": "Axe",
+                "weapon_rank": "All",
+                "damage": "1",
+                "resist": "0",
+                "accuracy": "15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Lance",
+                "weapon_rank": "All",
+                "damage": "-1",
+                "resist": "0",
+                "accuracy": "-15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Lance",
+        "name": "Lance",
+        "rank_bonus": [],
+        "advantage": [
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "All",
+                "damage": "1",
+                "resist": "0",
+                "accuracy": "15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Axe",
+                "weapon_rank": "All",
+                "damage": "-1",
+                "resist": "0",
+                "accuracy": "-15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            1
+        ]
+    },
+    {
+        "nid": "Axe",
+        "name": "Axe",
+        "rank_bonus": [],
+        "advantage": [
+            {
+                "weapon_type": "Lance",
+                "weapon_rank": "All",
+                "damage": "1",
+                "resist": "0",
+                "accuracy": "15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "All",
+                "damage": "-1",
+                "resist": "0",
+                "accuracy": "-15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            2
+        ]
+    },
+    {
+        "nid": "Bow",
+        "name": "Bow",
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            3
+        ]
+    },
+    {
+        "nid": "Staff",
+        "name": "Staff",
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            4
+        ]
+    },
+    {
+        "nid": "Light",
+        "name": "Light",
+        "rank_bonus": [],
+        "advantage": [
+            {
+                "weapon_type": "Dark",
+                "weapon_rank": "All",
+                "damage": "1",
+                "resist": "0",
+                "accuracy": "15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Anima",
+                "weapon_rank": "All",
+                "damage": "-1",
+                "resist": "0",
+                "accuracy": "-15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            5
+        ]
+    },
+    {
+        "nid": "Anima",
+        "name": "Anima",
+        "rank_bonus": [],
+        "advantage": [
+            {
+                "weapon_type": "Light",
+                "weapon_rank": "All",
+                "damage": "1",
+                "resist": "0",
+                "accuracy": "15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Dark",
+                "weapon_rank": "All",
+                "damage": "-1",
+                "resist": "0",
+                "accuracy": "-15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            6
+        ]
+    },
+    {
+        "nid": "Dark",
+        "name": "Dark",
+        "rank_bonus": [],
+        "advantage": [
+            {
+                "weapon_type": "Anima",
+                "weapon_rank": "All",
+                "damage": "1",
+                "resist": "0",
+                "accuracy": "15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Light",
+                "weapon_rank": "All",
+                "damage": "-1",
+                "resist": "0",
+                "accuracy": "-15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            7
+        ]
+    },
+    {
+        "nid": "Default",
+        "name": "Consumable",
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            8
+        ]
+    }
+]

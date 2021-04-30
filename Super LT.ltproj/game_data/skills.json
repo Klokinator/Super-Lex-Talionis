@@ -1,0 +1,365 @@
+[
+    {
+        "nid": "Canto",
+        "name": "Canto",
+        "desc": "Can move again after certain actions.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            4
+        ],
+        "components": [
+            [
+                "canto",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Fort",
+        "name": "Fort",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "regeneration",
+                0.2
+            ],
+            [
+                "avoid",
+                20
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Forest",
+        "name": "Forest",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "avoid",
+                20
+            ]
+        ]
+    },
+    {
+        "nid": "Mountain",
+        "name": "Mountain",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "avoid",
+                30
+            ]
+        ]
+    },
+    {
+        "nid": "Peak",
+        "name": "Peak",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "avoid",
+                40
+            ]
+        ]
+    },
+    {
+        "nid": "Avoid10",
+        "name": "Avoid10",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "avoid",
+                10
+            ]
+        ]
+    },
+    {
+        "nid": "Avoid5",
+        "name": "Avoid5",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "avoid",
+                5
+            ]
+        ]
+    },
+    {
+        "nid": "Flying",
+        "name": "Flying",
+        "desc": "Can fly.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            10
+        ],
+        "components": [
+            [
+                "ignore_terrain",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Strength +2",
+        "name": "Strength +2",
+        "desc": "Grants STR +2.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Poisoned",
+        "name": "Poisoned",
+        "desc": "Inflicts -2 to all stats.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            4
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "RES",
+                        -2
+                    ],
+                    [
+                        "STR",
+                        -2
+                    ],
+                    [
+                        "MAG",
+                        -2
+                    ],
+                    [
+                        "SKL",
+                        -2
+                    ],
+                    [
+                        "SPD",
+                        -2
+                    ],
+                    [
+                        "DEF",
+                        -2
+                    ]
+                ]
+            ],
+            [
+                "time",
+                2
+            ]
+        ]
+    },
+    {
+        "nid": "Resist+",
+        "name": "Resist+",
+        "desc": "Grants additional RES.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            5
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "RES",
+                        7
+                    ]
+                ]
+            ],
+            [
+                "time",
+                7
+            ],
+            [
+                "upkeep_stat_change",
+                [
+                    [
+                        "RES",
+                        -1
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Stoneskin",
+        "name": "Stoneskin",
+        "desc": "Take half damage but inflicts -2 SPD.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            7
+        ],
+        "components": [
+            [
+                "time",
+                4
+            ],
+            [
+                "resist_multiplier",
+                0.5
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        -4
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Stunned",
+        "name": "Stunned",
+        "desc": "Unit cannot act.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            8
+        ],
+        "components": [
+            [
+                "time",
+                2
+            ],
+            [
+                "unselectable",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        -99
+                    ]
+                ]
+            ],
+            [
+                "cannot_use_items",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Rescue",
+        "name": "Rescue",
+        "desc": "Unit is weighed down with a traveler.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "SKL",
+                        0.5
+                    ],
+                    [
+                        "SPD",
+                        0.5
+                    ]
+                ]
+            ]
+        ]
+    }
+]

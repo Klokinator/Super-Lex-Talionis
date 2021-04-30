@@ -1,0 +1,1066 @@
+[
+    {
+        "nid": "0",
+        "name": "Prologue",
+        "tilemap": "Prologue",
+        "party": "Eirika",
+        "music": {
+            "player_phase": "Distant Roads",
+            "enemy_phase": "Shadow of the Enemy",
+            "other_phase": null,
+            "enemy2_phase": null,
+            "player_battle": "Attack",
+            "enemy_battle": "Defense",
+            "other_battle": null,
+            "enemy2_battle": null,
+            "base": null
+        },
+        "objective": {
+            "simple": "Defeat boss",
+            "win": "Defeat boss",
+            "loss": "Eirika dies"
+        },
+        "units": [
+            {
+                "nid": "Eirika",
+                "team": "player",
+                "ai": "None",
+                "starting_position": [
+                    4,
+                    5
+                ],
+                "generic": false
+            },
+            {
+                "nid": "Seth",
+                "team": "player",
+                "ai": "None",
+                "starting_position": [
+                    4,
+                    4
+                ],
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 1,
+                "klass": "Fighter (M) {IS}",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Attack",
+                "starting_position": [
+                    9,
+                    6
+                ],
+                "name": null,
+                "desc": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 2,
+                "klass": "Fighter (M) {IS}",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Attack",
+                "starting_position": [
+                    8,
+                    6
+                ],
+                "name": null,
+                "desc": null,
+                "generic": true
+            },
+            {
+                "nid": "O'Neill",
+                "team": "enemy",
+                "ai": "Guard",
+                "starting_position": [
+                    10,
+                    8
+                ],
+                "generic": false
+            }
+        ],
+        "regions": [],
+        "unit_groups": [
+            {
+                "nid": "Enemy1",
+                "units": [
+                    "101",
+                    "102",
+                    "O'Neill"
+                ],
+                "positions": {
+                    "101": [
+                        14,
+                        7
+                    ],
+                    "102": [
+                        14,
+                        8
+                    ],
+                    "O'Neill": [
+                        14,
+                        9
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "nid": "1",
+        "name": "Ch. 1: Escape!",
+        "tilemap": "Chapter 1",
+        "party": "Eirika",
+        "music": {
+            "player_phase": "Distant Roads",
+            "enemy_phase": "Shadow of the Enemy",
+            "other_phase": null,
+            "player_battle": "Attack",
+            "enemy_battle": "Defense",
+            "other_battle": null,
+            "base": null
+        },
+        "objective": {
+            "simple": "Seize Gate",
+            "win": "Seize Boss",
+            "loss": "Eirika dies"
+        },
+        "units": [
+            {
+                "nid": "Eirika",
+                "team": "player",
+                "ai": "None",
+                "starting_position": [
+                    12,
+                    9
+                ],
+                "generic": false
+            },
+            {
+                "nid": "Seth",
+                "team": "player",
+                "ai": "None",
+                "starting_position": [
+                    13,
+                    8
+                ],
+                "generic": false
+            },
+            {
+                "nid": "Gilliam",
+                "team": "player",
+                "ai": "None",
+                "starting_position": [
+                    6,
+                    1
+                ],
+                "generic": false
+            },
+            {
+                "nid": "Franz",
+                "team": "player",
+                "ai": "None",
+                "starting_position": [
+                    5,
+                    1
+                ],
+                "generic": false
+            },
+            {
+                "nid": "Breguet",
+                "team": "enemy",
+                "ai": "Guard",
+                "starting_position": [
+                    2,
+                    2
+                ],
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 2,
+                "klass": "Soldier (M) {IS}",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Defend",
+                "starting_position": [
+                    1,
+                    3
+                ],
+                "name": null,
+                "desc": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 2,
+                "klass": "Soldier (M) {IS}",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Defend",
+                "starting_position": [
+                    3,
+                    3
+                ],
+                "name": null,
+                "desc": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 2,
+                "klass": "Fighter (M) {IS}",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Defend",
+                "starting_position": [
+                    2,
+                    8
+                ],
+                "name": null,
+                "desc": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 2,
+                "klass": "Fighter (M) {IS}",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Attack",
+                "starting_position": [
+                    4,
+                    7
+                ],
+                "name": null,
+                "desc": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 2,
+                "klass": "Fighter (M) {IS}",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Attack",
+                "starting_position": [
+                    9,
+                    5
+                ],
+                "name": null,
+                "desc": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 3,
+                "klass": "Soldier (M) {IS}",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Guard",
+                "starting_position": [
+                    8,
+                    3
+                ],
+                "name": null,
+                "desc": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 2,
+                "klass": "Soldier (M) {IS}",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "starting_position": null,
+                "name": null,
+                "desc": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 1,
+                "klass": "Fighter (M) {IS}",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Attack",
+                "starting_position": null,
+                "name": null,
+                "desc": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 1,
+                "klass": "Fighter (M) {IS}",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Attack",
+                "starting_position": null,
+                "name": null,
+                "desc": null,
+                "generic": true
+            },
+            {
+                "nid": "GreenCav",
+                "variant": null,
+                "level": 1,
+                "klass": "Cavalier",
+                "faction": "Soldier",
+                "starting_items": [],
+                "team": "other",
+                "ai": "None",
+                "starting_position": null,
+                "name": null,
+                "desc": null,
+                "generic": true
+            },
+            {
+                "nid": "GreenMerc",
+                "variant": null,
+                "level": 1,
+                "klass": "Mercenary",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "team": "other",
+                "ai": "None",
+                "starting_position": null,
+                "name": null,
+                "desc": null,
+                "generic": true
+            }
+        ],
+        "regions": [
+            {
+                "nid": "House1",
+                "region_type": "event",
+                "position": [
+                    13,
+                    6
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "only_once": true
+            },
+            {
+                "nid": "House2",
+                "region_type": "event",
+                "position": [
+                    10,
+                    4
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "only_once": true
+            },
+            {
+                "nid": "Gate",
+                "region_type": "event",
+                "position": [
+                    2,
+                    2
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Seize",
+                "condition": "unit.nid == 'Eirika'",
+                "only_once": false
+            },
+            {
+                "nid": "EnemyRein",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    0
+                ],
+                "size": [
+                    8,
+                    10
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "only_once": false
+            }
+        ],
+        "unit_groups": [
+            {
+                "nid": "Enemy1",
+                "units": [
+                    "Breguet",
+                    "101",
+                    "102",
+                    "103",
+                    "104",
+                    "105",
+                    "106"
+                ],
+                "positions": {
+                    "Breguet": [
+                        2,
+                        5
+                    ],
+                    "101": [
+                        1,
+                        6
+                    ],
+                    "102": [
+                        3,
+                        6
+                    ],
+                    "106": [
+                        2,
+                        7
+                    ],
+                    "105": [
+                        2,
+                        9
+                    ],
+                    "104": [
+                        3,
+                        8
+                    ],
+                    "103": [
+                        1,
+                        8
+                    ]
+                }
+            },
+            {
+                "nid": "Rein",
+                "units": [
+                    "Gilliam",
+                    "Franz"
+                ],
+                "positions": {}
+            },
+            {
+                "nid": "EnemyRein",
+                "units": [
+                    "107",
+                    "108",
+                    "109"
+                ],
+                "positions": {
+                    "107": [
+                        13,
+                        9
+                    ],
+                    "108": [
+                        13,
+                        8
+                    ],
+                    "109": [
+                        12,
+                        9
+                    ]
+                }
+            },
+            {
+                "nid": "EirikaSeth",
+                "units": [
+                    "Eirika",
+                    "Seth"
+                ],
+                "positions": {}
+            }
+        ]
+    },
+    {
+        "nid": "2",
+        "name": "Ch. 2: The Protected",
+        "tilemap": "Chapter 2",
+        "party": "Eirika",
+        "music": {
+            "player_phase": "Distant Roads",
+            "enemy_phase": "Shadow of the Enemy",
+            "other_phase": null,
+            "player_battle": "Attack",
+            "enemy_battle": "Defense",
+            "other_battle": null,
+            "base": null
+        },
+        "objective": {
+            "simple": "Defeat enemy,Left {len([unit for unit in game.level.units if unit.team == 'enemy' and unit.position])}",
+            "win": "Defeat all enemies",
+            "loss": "Eirika dies"
+        },
+        "units": [
+            {
+                "nid": "Eirika",
+                "team": "player",
+                "ai": "None",
+                "starting_position": [
+                    2,
+                    2
+                ],
+                "generic": false
+            },
+            {
+                "nid": "Seth",
+                "team": "player",
+                "ai": "None",
+                "starting_position": [
+                    0,
+                    1
+                ],
+                "generic": false
+            },
+            {
+                "nid": "Franz",
+                "team": "player",
+                "ai": "None",
+                "starting_position": [
+                    1,
+                    1
+                ],
+                "generic": false
+            },
+            {
+                "nid": "Gilliam",
+                "team": "player",
+                "ai": "None",
+                "starting_position": [
+                    0,
+                    3
+                ],
+                "generic": false
+            },
+            {
+                "nid": "Vanessa",
+                "team": "player",
+                "ai": "None",
+                "starting_position": [
+                    6,
+                    3
+                ],
+                "generic": false
+            },
+            {
+                "nid": "Moulder",
+                "team": "player",
+                "ai": "None",
+                "starting_position": [
+                    3,
+                    3
+                ],
+                "generic": false
+            },
+            {
+                "nid": "Ross",
+                "team": "other",
+                "ai": "Guard",
+                "starting_position": [
+                    10,
+                    5
+                ],
+                "generic": false
+            },
+            {
+                "nid": "Garcia",
+                "team": "other",
+                "ai": "Defend",
+                "starting_position": [
+                    10,
+                    4
+                ],
+                "generic": false
+            },
+            {
+                "nid": "Bone",
+                "team": "enemy",
+                "ai": "Attack",
+                "starting_position": [
+                    9,
+                    14
+                ],
+                "generic": false
+            },
+            {
+                "nid": "TopBandit",
+                "variant": null,
+                "level": 2,
+                "klass": "Brigand (M) {IS}",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Attack",
+                "starting_position": [
+                    12,
+                    3
+                ],
+                "name": "Cutthroat",
+                "desc": "A member of Bazba's Bandits, who roam this region.",
+                "generic": true
+            },
+            {
+                "nid": "BoneBuddy",
+                "variant": null,
+                "level": 3,
+                "klass": "Brigand (M) {IS}",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Attack",
+                "starting_position": [
+                    10,
+                    12
+                ],
+                "name": "Cutthroat",
+                "desc": "A member of Bazba's Bandits, who roam this region.",
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 3,
+                "klass": "Brigand (M) {IS}",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Attack",
+                "starting_position": [
+                    7,
+                    14
+                ],
+                "name": "Cutthroat",
+                "desc": "A member of Bazba's Bandits, who roam this region.",
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 3,
+                "klass": "Brigand (M) {IS}",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ],
+                    [
+                        "Vulnerary",
+                        true
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "None",
+                "starting_position": [
+                    6,
+                    11
+                ],
+                "name": "Cutthroat",
+                "desc": "A member of Bazba's Bandits, who roam this region.",
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 1,
+                "klass": "Archer (M) {IS}",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Iron Bow",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Attack",
+                "starting_position": [
+                    14,
+                    9
+                ],
+                "name": "Cutthroat",
+                "desc": "A member of Bazba's Bandits, who roam this region.",
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 2,
+                "klass": "Brigand (M) {IS}",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Attack",
+                "starting_position": [
+                    1,
+                    9
+                ],
+                "name": "Cutthroat",
+                "desc": "A member of Bazba's Bandits, who roam this region.",
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 3,
+                "klass": "Brigand (M) {IS}",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Attack",
+                "starting_position": [
+                    0,
+                    9
+                ],
+                "name": "Cutthroat",
+                "desc": "A member of Bazba's Bandits, who roam this region.",
+                "generic": true
+            }
+        ],
+        "regions": [
+            {
+                "nid": "Village1",
+                "region_type": "event",
+                "position": [
+                    4,
+                    2
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "only_once": false
+            },
+            {
+                "nid": "Village2",
+                "region_type": "event",
+                "position": [
+                    7,
+                    2
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "only_once": null
+            },
+            {
+                "nid": "VIllage3",
+                "region_type": "event",
+                "position": [
+                    1,
+                    12
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "only_once": null
+            },
+            {
+                "nid": "Armory",
+                "region_type": "event",
+                "position": [
+                    5,
+                    7
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Armory",
+                "condition": "True",
+                "only_once": null
+            }
+        ],
+        "unit_groups": [
+            {
+                "nid": "BanditReinforcements",
+                "units": [
+                    "106",
+                    "107"
+                ],
+                "positions": {
+                    "106": [
+                        0,
+                        9
+                    ],
+                    "107": [
+                        1,
+                        9
+                    ]
+                }
+            },
+            {
+                "nid": "Bandits1",
+                "units": [
+                    "TopBandit",
+                    "105",
+                    "Bone",
+                    "BoneBuddy"
+                ],
+                "positions": {
+                    "TopBandit": [
+                        12,
+                        5
+                    ],
+                    "105": [
+                        14,
+                        9
+                    ],
+                    "Bone": [
+                        13,
+                        7
+                    ],
+                    "BoneBuddy": [
+                        11,
+                        7
+                    ]
+                }
+            },
+            {
+                "nid": "RossGarcia",
+                "units": [
+                    "Ross",
+                    "Garcia"
+                ],
+                "positions": {}
+            },
+            {
+                "nid": "BlueTeam",
+                "units": [
+                    "Eirika",
+                    "Seth",
+                    "Franz",
+                    "Gilliam",
+                    "Moulder"
+                ],
+                "positions": {}
+            }
+        ]
+    },
+    {
+        "nid": "DEBUG",
+        "name": "DEBUG",
+        "tilemap": "Chapter 2",
+        "party": "Eirika",
+        "music": {
+            "player_phase": null,
+            "enemy_phase": null,
+            "other_phase": null,
+            "player_battle": null,
+            "enemy_battle": null,
+            "other_battle": null,
+            "base": null
+        },
+        "objective": {
+            "simple": "DEBUG",
+            "win": "Don't Crash",
+            "loss": "Crash"
+        },
+        "units": [
+            {
+                "nid": "Joshua",
+                "team": "player",
+                "ai": "None",
+                "starting_position": [
+                    2,
+                    3
+                ],
+                "generic": false
+            },
+            {
+                "nid": "Bone",
+                "team": "enemy",
+                "ai": "None",
+                "starting_position": [
+                    4,
+                    3
+                ],
+                "generic": false
+            },
+            {
+                "nid": "Lute",
+                "team": "player",
+                "ai": "None",
+                "starting_position": [
+                    2,
+                    5
+                ],
+                "generic": false
+            },
+            {
+                "nid": "O'Neill",
+                "team": "enemy",
+                "ai": "None",
+                "starting_position": [
+                    4,
+                    5
+                ],
+                "generic": false
+            },
+            {
+                "nid": "Seth",
+                "team": "player",
+                "ai": "None",
+                "starting_position": [
+                    1,
+                    4
+                ],
+                "generic": false
+            },
+            {
+                "nid": "Eirika",
+                "team": "player",
+                "ai": "None",
+                "starting_position": [
+                    6,
+                    3
+                ],
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 1,
+                "klass": "Cavalier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "None",
+                "starting_position": [
+                    5,
+                    6
+                ],
+                "name": null,
+                "desc": null,
+                "generic": true
+            }
+        ],
+        "regions": [],
+        "unit_groups": []
+    }
+]

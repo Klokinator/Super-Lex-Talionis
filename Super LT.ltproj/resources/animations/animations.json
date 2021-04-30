@@ -1,0 +1,128 @@
+[
+    {
+        "nid": "CritSpark",
+        "frame_x": 3,
+        "frame_y": 5,
+        "num_frames": 15,
+        "speed": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"
+    },
+    {
+        "nid": "HitSpark",
+        "frame_x": 3,
+        "frame_y": 5,
+        "num_frames": 14,
+        "speed": "2,2,2,2,2,2,1,1,1,1,1,1,1,1"
+    },
+    {
+        "nid": "LevelUpArrow",
+        "frame_x": 10,
+        "frame_y": 1,
+        "num_frames": 10,
+        "speed": "32"
+    },
+    {
+        "nid": "LevelUpBattle",
+        "frame_x": 5,
+        "frame_y": 11,
+        "num_frames": 52,
+        "speed": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,10,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1"
+    },
+    {
+        "nid": "LevelUpMap",
+        "frame_x": 5,
+        "frame_y": 5,
+        "num_frames": 25,
+        "speed": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44"
+    },
+    {
+        "nid": "LevelUpNumber1",
+        "frame_x": 10,
+        "frame_y": 1,
+        "num_frames": 10,
+        "speed": "32"
+    },
+    {
+        "nid": "LevelUpNumber2",
+        "frame_x": 10,
+        "frame_y": 1,
+        "num_frames": 10,
+        "speed": "32"
+    },
+    {
+        "nid": "LevelUpNumber3",
+        "frame_x": 10,
+        "frame_y": 1,
+        "num_frames": 10,
+        "speed": "32"
+    },
+    {
+        "nid": "LevelupNumber4",
+        "frame_x": 10,
+        "frame_y": 1,
+        "num_frames": 10,
+        "speed": "32"
+    },
+    {
+        "nid": "LevelUpNumber5",
+        "frame_x": 10,
+        "frame_y": 1,
+        "num_frames": 10,
+        "speed": "32"
+    },
+    {
+        "nid": "LevelUpNumber6",
+        "frame_x": 10,
+        "frame_y": 1,
+        "num_frames": 10,
+        "speed": "32"
+    },
+    {
+        "nid": "LevelUpNumber7",
+        "frame_x": 10,
+        "frame_y": 1,
+        "num_frames": 10,
+        "speed": "32"
+    },
+    {
+        "nid": "MapBigHealTrans",
+        "frame_x": 5,
+        "frame_y": 4,
+        "num_frames": 16,
+        "speed": "24"
+    },
+    {
+        "nid": "MapMediumHealTrans",
+        "frame_x": 5,
+        "frame_y": 4,
+        "num_frames": 16,
+        "speed": "24"
+    },
+    {
+        "nid": "MapMiss",
+        "frame_x": 1,
+        "frame_y": 13,
+        "num_frames": 13,
+        "speed": "1,1,1,1,1,1,1,1,1,10,3,3,3"
+    },
+    {
+        "nid": "MapNoDamage",
+        "frame_x": 1,
+        "frame_y": 12,
+        "num_frames": 12,
+        "speed": "1,1,1,1,1,1,1,1,10,3,3,3"
+    },
+    {
+        "nid": "MapSmallHealTrans",
+        "frame_x": 5,
+        "frame_y": 4,
+        "num_frames": 16,
+        "speed": "24"
+    },
+    {
+        "nid": "StatUpSpark",
+        "frame_x": 11,
+        "frame_y": 1,
+        "num_frames": 11,
+        "speed": "32"
+    }
+]

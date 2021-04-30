@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Chpt1",
+        "terrain_grid": {}
+    },
+    {
+        "nid": "Prologue",
+        "terrain_grid": {}
+    },
+    {
+        "nid": "Chpt2",
+        "terrain_grid": {}
+    },
+    {
+        "nid": "SacredStonesBase",
+        "terrain_grid": {}
+    }
+]

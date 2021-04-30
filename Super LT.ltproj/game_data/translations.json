@@ -1,0 +1,298 @@
+[
+    {
+        "nid": "Unit_desc",
+        "text": "Display a chart of all units on the field."
+    },
+    {
+        "nid": "Objective_desc",
+        "text": "Current objective and overall status."
+    },
+    {
+        "nid": "Options_desc",
+        "text": "Change settings and controls."
+    },
+    {
+        "nid": "Suspend_desc",
+        "text": "Save the game for later. On reload, save is deleted."
+    },
+    {
+        "nid": "Save_desc",
+        "text": "Save the game for later."
+    },
+    {
+        "nid": "End_desc",
+        "text": "Pass the turn."
+    },
+    {
+        "nid": "Turnwheel_desc",
+        "text": "Can undo previous actions."
+    },
+    {
+        "nid": "Turnwheel_empty",
+        "text": "No turnwheel uses remaining!"
+    },
+    {
+        "nid": "Rescue_desc",
+        "text": "Select a unit to rescue."
+    },
+    {
+        "nid": "Take_desc",
+        "text": "Take the traveler from an adjacent unit."
+    },
+    {
+        "nid": "Drop_desc",
+        "text": "Select which tile to drop the unit into."
+    },
+    {
+        "nid": "Give_desc",
+        "text": "Give the traveler to an adjacent unit."
+    },
+    {
+        "nid": "Trade_desc",
+        "text": "Select which unit to trade with."
+    },
+    {
+        "nid": "Config_desc",
+        "text": "Change your settings."
+    },
+    {
+        "nid": "Controls_desc",
+        "text": "Change key mappings."
+    },
+    {
+        "nid": "Get_Input_desc",
+        "text": "Press a new key (or BACK to quit)."
+    },
+    {
+        "nid": "unit_speed_desc",
+        "text": "Change unit movement speed."
+    },
+    {
+        "nid": "animation_desc",
+        "text": "Show combat animations"
+    },
+    {
+        "nid": "text_speed_desc",
+        "text": "Change text speed."
+    },
+    {
+        "nid": "cursor_speed_desc",
+        "text": "Change cursor speed."
+    },
+    {
+        "nid": "show_terrain_desc",
+        "text": "Show Terrain Info window."
+    },
+    {
+        "nid": "show_objective_desc",
+        "text": "Show Chapter Goal window."
+    },
+    {
+        "nid": "display_hints_desc",
+        "text": "Show tutorial popups."
+    },
+    {
+        "nid": "confirm_end_desc",
+        "text": "Ask again before manually ending turn?"
+    },
+    {
+        "nid": "autoend_turn_desc",
+        "text": "End turn when no moves are available."
+    },
+    {
+        "nid": "sound_volume_desc",
+        "text": "Change sound effect volume."
+    },
+    {
+        "nid": "music_volume_desc",
+        "text": "Change music volume."
+    },
+    {
+        "nid": "hp_map_cull_desc",
+        "text": "Change what kind of units should display HP."
+    },
+    {
+        "nid": "hp_map_team_desc",
+        "text": "Change which teams should display HP bars."
+    },
+    {
+        "nid": "autocursor_desc",
+        "text": "Set cursor to start on main hero."
+    },
+    {
+        "nid": "temp_screen_size_desc",
+        "text": "Restart for change to take effect."
+    },
+    {
+        "nid": "talk_boop_desc",
+        "text": "Whether text should make a sound."
+    },
+    {
+        "nid": "keymap_desc",
+        "text": "Change keyboard bindings."
+    },
+    {
+        "nid": "STR_desc",
+        "text": "Strength. The higher the number, the more damage you inflict."
+    },
+    {
+        "nid": "MAG_desc",
+        "text": "Magical power. Increases ward and spell damage."
+    },
+    {
+        "nid": "SKL_desc",
+        "text": "Fighting skill. A higher number improves accuracy."
+    },
+    {
+        "nid": "SPD_desc",
+        "text": "This affects both evasion and attack speed."
+    },
+    {
+        "nid": "DEF_desc",
+        "text": "Reduces damage from weapons."
+    },
+    {
+        "nid": "RES_desc",
+        "text": "Reduces damage from magical attacks."
+    },
+    {
+        "nid": "LCK_desc",
+        "text": "Luck affects accuracy and avoid."
+    },
+    {
+        "nid": "MOV_desc",
+        "text": "The distance you can cross in one turn."
+    },
+    {
+        "nid": "CON_desc",
+        "text": "Constitution. Affects how well the unit can wield heavier weapons."
+    },
+    {
+        "nid": "Aid_desc",
+        "text": "Max rescuing constitution. Units with greater Con cannot be rescued."
+    },
+    {
+        "nid": "Trv_desc",
+        "text": "Who is this unit rescuing?"
+    },
+    {
+        "nid": "Affin_desc",
+        "text": "Determines bonuses given to other units in supports."
+    },
+    {
+        "nid": "NoAffin_desc",
+        "text": "Determines bonuses given to other units in supports."
+    },
+    {
+        "nid": "Rating_desc",
+        "text": "Holistic combat rating."
+    },
+    {
+        "nid": "Ftg_desc",
+        "text": "Fatigue. A unit whose fatigue exceeds its limit cannot be deployed."
+    },
+    {
+        "nid": "Atk_desc",
+        "text": "Amount of damage this weapon causes. Affected by defenses."
+    },
+    {
+        "nid": "Hit_desc",
+        "text": "Chance that the attack will hit. Affected by terrain and enemies."
+    },
+    {
+        "nid": "Rng_desc",
+        "text": "Weapon Range. A range of 1 can only hit adjacent spaces."
+    },
+    {
+        "nid": "Avoid_desc",
+        "text": "Ability to dodge enemy attacks. Affects enemy's accuracy."
+    },
+    {
+        "nid": "AS_desc",
+        "text": "Attack Speed. If a unit has 4 or more attack speed than its opponent, it attacks twice."
+    },
+    {
+        "nid": "Crit_desc",
+        "text": "Chance the weapon will strike a critical blow, dealing extra damage."
+    },
+    {
+        "nid": "Level_desc",
+        "text": "Unit level. How experienced a unit is."
+    },
+    {
+        "nid": "Exp_desc",
+        "text": "Experience points gained. Gain 100 points to earn a new level."
+    },
+    {
+        "nid": "HP_desc",
+        "text": "Hit points. The unit is removed from the battle if HP reaches 0."
+    },
+    {
+        "nid": "armory_opener",
+        "text": "This is an armory. {w}{clear}Buy something, would ya?"
+    },
+    {
+        "nid": "armory_buy",
+        "text": "What do ya need?"
+    },
+    {
+        "nid": "armory_back",
+        "text": "Anything else?"
+    },
+    {
+        "nid": "armory_leave",
+        "text": "Come back again."
+    },
+    {
+        "nid": "vendor_opener",
+        "text": "This is a general store. {w}{clear}How can I help you?"
+    },
+    {
+        "nid": "vendor_buy",
+        "text": "What can I get for you?"
+    },
+    {
+        "nid": "vendor_back",
+        "text": "Anything else I can do for you?"
+    },
+    {
+        "nid": "vendor_leave",
+        "text": "Drop in again."
+    },
+    {
+        "nid": "shop_again",
+        "text": "Do you need anything else?"
+    },
+    {
+        "nid": "shop_buy_again",
+        "text": "Buying anything else?"
+    },
+    {
+        "nid": "shop_sell_again",
+        "text": "Selling anything else?"
+    },
+    {
+        "nid": "shop_convoy",
+        "text": "Send it to your convoy?"
+    },
+    {
+        "nid": "shop_max",
+        "text": "Your hands are full. {w}{clear}If you had a convoy, I could send it there... {w}{clear}Anything else I can do for you?"
+    },
+    {
+        "nid": "shop_no_money",
+        "text": "Sorry. You don't have enough money."
+    },
+    {
+        "nid": "shop_check",
+        "text": "Are you sure?"
+    },
+    {
+        "nid": "shop_no_value",
+        "text": "You can't sell that here."
+    },
+    {
+        "nid": "config_desc",
+        "text": "Change settings."
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "rank": "E",
+        "requirement": 1
+    },
+    {
+        "rank": "D",
+        "requirement": 31
+    },
+    {
+        "rank": "C",
+        "requirement": 71
+    },
+    {
+        "rank": "B",
+        "requirement": 121
+    },
+    {
+        "rank": "A",
+        "requirement": 181
+    },
+    {
+        "rank": "S",
+        "requirement": 251
+    }
+]

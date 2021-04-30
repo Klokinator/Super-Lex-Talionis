@@ -1,0 +1,90 @@
+[
+    {
+        "nid": "HITPOINTS",
+        "expression": "HP"
+    },
+    {
+        "nid": "MOVEMENT",
+        "expression": "MOV"
+    },
+    {
+        "nid": "ATTACK_SPEED",
+        "expression": "SPD"
+    },
+    {
+        "nid": "DEFENSE_SPEED",
+        "expression": "SPD"
+    },
+    {
+        "nid": "HIT",
+        "expression": "SKL*2 + LCK//2"
+    },
+    {
+        "nid": "AVOID",
+        "expression": "SPD*2 + LCK"
+    },
+    {
+        "nid": "CRIT_HIT",
+        "expression": "SKL//2"
+    },
+    {
+        "nid": "CRIT_AVOID",
+        "expression": "LCK"
+    },
+    {
+        "nid": "DAMAGE",
+        "expression": "STR"
+    },
+    {
+        "nid": "DEFENSE",
+        "expression": "DEF"
+    },
+    {
+        "nid": "MAGIC_DAMAGE",
+        "expression": "MAG"
+    },
+    {
+        "nid": "MAGIC_DEFENSE",
+        "expression": "RES"
+    },
+    {
+        "nid": "CRIT_ADD",
+        "expression": "0"
+    },
+    {
+        "nid": "CRIT_MULT",
+        "expression": "3"
+    },
+    {
+        "nid": "SPEED_TO_DOUBLE",
+        "expression": "4"
+    },
+    {
+        "nid": "RATING",
+        "expression": "(HP - 10)//2 + max(STR, MAG) + SKL + SPD + LCK//2 + DEF + RES"
+    },
+    {
+        "nid": "RESCUE_AID",
+        "expression": "max(0, 25 - CON) if 'Mounted' in unit.tags else max(0, CON - 1)"
+    },
+    {
+        "nid": "RESCUE_WEIGHT",
+        "expression": "CON"
+    },
+    {
+        "nid": "STEAL_ATK",
+        "expression": "SPD"
+    },
+    {
+        "nid": "STEAL_DEF",
+        "expression": "SPD"
+    },
+    {
+        "nid": "HEAL",
+        "expression": "MAG"
+    },
+    {
+        "nid": "CONSTITUTION",
+        "expression": "CON"
+    }
+]

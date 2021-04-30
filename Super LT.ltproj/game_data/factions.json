@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Soldier",
+        "name": "Soldier",
+        "desc": "The army of Grado, the largest nation on the entire continent",
+        "icon_nid": "KnightEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Cutthroat",
+        "name": "Cutthroat",
+        "desc": "A member of Bazba's Bandits, who roam this region.",
+        "icon_nid": "BanditEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    }
+]

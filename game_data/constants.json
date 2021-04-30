@@ -68,12 +68,16 @@
         "Match"
     ],
     [
-        "rng",
-        "True Hit"
-    ],
-    [
         "auto_promote",
         false
+    ],
+    [
+        "generic_feats",
+        false
+    ],
+    [
+        "rng",
+        "True Hit"
     ],
     [
         "min_damage",
@@ -114,6 +118,26 @@
     [
         "title",
         "Lex Talionis Game"
+    ],
+    [
+        "title_particles",
+        true
+    ],
+    [
+        "music_main",
+        null
+    ],
+    [
+        "music_promotion",
+        null
+    ],
+    [
+        "music_class_change",
+        null
+    ],
+    [
+        "restart_phase_music",
+        true
     ],
     [
         "kill_wexp",

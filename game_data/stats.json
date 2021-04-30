@@ -1,0 +1,72 @@
+[
+    {
+        "nid": "HP",
+        "name": "HP",
+        "maximum": 60,
+        "desc": "Hit points. The unit is removed from the battle if HP reaches 0.",
+        "position": "left"
+    },
+    {
+        "nid": "STR",
+        "name": "Str",
+        "maximum": 30,
+        "desc": "Strength. The higher the number, the more damage you inflict.",
+        "position": "left"
+    },
+    {
+        "nid": "MAG",
+        "name": "Mag",
+        "maximum": 30,
+        "desc": "Magical power. Increases spell and staff effectiveness.",
+        "position": "left"
+    },
+    {
+        "nid": "SKL",
+        "name": "Skill",
+        "maximum": 30,
+        "desc": "Fighting skill. A higher number improves accuracy.",
+        "position": "left"
+    },
+    {
+        "nid": "SPD",
+        "name": "Spd",
+        "maximum": 30,
+        "desc": "This affects both evasion and attack speed.",
+        "position": "left"
+    },
+    {
+        "nid": "LCK",
+        "name": "Luck",
+        "maximum": 30,
+        "desc": "Luck affects many things.",
+        "position": "left"
+    },
+    {
+        "nid": "DEF",
+        "name": "Def",
+        "maximum": 30,
+        "desc": "Reduces damage from weapons.",
+        "position": "left"
+    },
+    {
+        "nid": "RES",
+        "name": "Res",
+        "maximum": 30,
+        "desc": "Reduces damage from magic.",
+        "position": "left"
+    },
+    {
+        "nid": "CON",
+        "name": "Con",
+        "maximum": 25,
+        "desc": "Constitution. Affects how well the unit can wield heavier weapons.",
+        "position": "left"
+    },
+    {
+        "nid": "MOV",
+        "name": "Move",
+        "maximum": 15,
+        "desc": "The distance you can move in one turn.",
+        "position": "left"
+    }
+]

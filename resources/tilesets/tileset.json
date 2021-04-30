@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Chpt1",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "Prologue",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "Chpt2",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "SacredStonesBase",
+        "terrain_grid": {},
+        "autotiles": {}
+    }
+]

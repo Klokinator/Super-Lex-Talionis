@@ -5,6 +5,7 @@
             15,
             10
         ],
+        "autotile_fps": 29,
         "layers": [
             {
                 "nid": "base",
@@ -1225,6 +1226,7 @@
             15,
             10
         ],
+        "autotile_fps": 29,
         "layers": [
             {
                 "nid": "base",
@@ -2445,6 +2447,7 @@
             15,
             15
         ],
+        "autotile_fps": 29,
         "layers": [
             {
                 "nid": "base",
